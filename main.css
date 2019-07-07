@@ -1,0 +1,192 @@
+*{
+    box-sizing: border-box;
+}
+body {
+    margin: 0;
+}
+.product-overiew {
+    background-image: url(images/freedom.jpg);  
+    background-size:cover;
+    background-position: 0% 50%;
+    height: 528px;
+    font-family: 'Pacifico', cursive;
+    font-size: 30px;
+    text-align: right;
+    color: #fdfcfbf3;
+}
+.plan{
+    background:#b3a0fa;
+    text-align: center;
+    padding: 16px;
+    margin: 8px;
+    display: inline-block;
+    width: 30%;
+    vertical-align: middle;
+}
+
+.plan--highlight{
+    background: rgb(84, 79, 117);
+    color: white; 
+    box-shadow: 2px 2px 5px 5px rgba(12, 12, 12, 0.897);
+
+}
+.plan__annotation{
+    font-size: 25px;
+   background: white;
+   color: rgb(84, 79, 117);
+   box-shadow: 2px 2px 5px 5px rgba(12, 12, 12, 0.897);
+   border-radius: 8px;
+}
+ .plane__fetures{
+     list-style: none;
+     padding: 0px;
+     margin: 0px;
+
+ }
+.plane__fetures li{
+    margin: 8px 0;
+}
+.plan__title{
+    color: darkblue;
+}
+.plan__prise{
+    color: #f86969;
+}
+.plan--highlight .plan__prise{
+    color: #fabdbd;
+}
+.plan--highlight .plan__title{
+    color: #b3a0fa;
+}
+.button{
+    background:#453e5f;
+    color: white;
+    font: inherit;
+    border: 1.5px solid #453e5f;
+    padding: 8px;
+    border-radius: 8px;
+    font-weight: bold;
+    cursor: pointer;
+}
+button:hover,
+button:active{
+    background: white;
+    color: #453e5f ;
+}
+
+.section-title {
+    text-align:center;
+    color: #331f75;
+    font-size: 25px;
+}
+#key-fetures{
+    background: #f86969;
+    margin-top: 80px;
+    padding: 16px;
+
+}
+#key-fetures .section-title{
+    color: white;
+    margin: 30px;
+}
+.key-fetures__lis{
+    list-style: none;
+    margin: 0%;
+    padding: 0%;
+    text-align: center;
+}
+.key-feture {
+    display: inline-block;
+    width: 30%;
+    vertical-align: top;
+
+
+}
+.key-feture__img{
+    background: #ffcede;
+    width: 128px;
+    height: 128px;
+    border: 2px solid #453e5f;
+    border-radius: 50%;
+    margin: auto;
+
+}
+.key-feture__description{
+    text-align: center;
+    font-weight: bold;
+    color: white;
+    font-size: 25px;
+
+}
+.main-header {
+    width: 100%;
+    background:#b3a0fa;
+    padding: 8px; 
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+.main-header > div {
+    display: inline-block;
+}
+.main__brand{
+    color: #0e4f1f;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 25px;
+    vertical-align: middle;
+
+}
+.main-nav {
+    display: inline-block;
+    text-align: right;
+    width: calc(100% - 80px);
+}
+.main-nav__item {
+    margin: 0%;
+    padding: 0%;   
+list-style: none;
+
+}
+
+.main-nav__item {
+    display: inline-block;
+    margin: 0 16px;
+}
+.main-nav__item a {
+    color: #0e4f1f;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 25px;
+    vertical-align: middle;
+}
+.main-nav__item a:hover,
+.main-nav__item a:active{
+    color:yellow;
+}
+.main-footer{
+    background: black;
+    padding: 32px;
+    margin-top: 48px;
+}
+.main-footer__links{
+    list-style: none;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+
+}
+.main-footer__list{
+    display: inline-block;
+    margin: 0 20px;
+     
+}
+.main-footer__list a{
+    color: white;
+    text-decoration: none;
+}
+.main-footer__list a:hover,
+.main-footer__list a:active{
+    color: #a5f315;
+}
